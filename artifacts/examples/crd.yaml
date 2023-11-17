@@ -22,6 +22,7 @@ spec:
               properties:
                 deploymentName:
                   type: string
+                # replicas  has got a data format validation
                 replicas:
                   type: integer
                   minimum: 1
